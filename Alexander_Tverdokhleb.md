@@ -23,3 +23,17 @@ _Изученно на первом уроке:_
 + **git diff** - увидеть разницу между текущим файлом и закоммиченным файлом
 
 ---
+
+_Изученно на первом уроке:_
+
++ **git branch** - Выводим список веток в репозитории
+
++ **git branch new_branch_name** - Создаем новую ветку с именем new_branch_name
+
++ **git branch -d branch_to_delete** - Удаляем ветку с именем new_branch_name
+
++ **git checkout branch_name** - Переходим на ветку branch_name
+
++ **git log –graph** - Выводим список коммитов в виде красивого графа/дерева
+
++ **git merge branch_name** - Сливает ветку branch_name с текущей веткой
