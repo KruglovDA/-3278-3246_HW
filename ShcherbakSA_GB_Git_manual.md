@@ -71,27 +71,32 @@ _GitBash shell window_
 
 **git log** - showing commit history
 
-**git checkout** - swap to the next commit
-
-**git checkout master** - stop commiting, go back to work!
-
 **git diff** - showing difference between actual and commited file/files
 
 ## Git in daily use:
 
 **git clone <here we get URL of the required repository** - cloning ***all*** the repository, including all the existing branches *and the same time trying to merge all of them*
 
+**git pull** - use this to clone the repository you need to your local PC to start coding (and commiting)
+
+**git status** - checks if your local project is up to date with your target repository
 
 ### What is Git branches about?
 ![How do the git branches work](img/git-branches-merge.png)
 
 _Git branch system was designed to test different options on the same code snippets or to merge together different files to craft the final product._
 
-**git pull** - 
+**git branch** - checking all the branches in the current repository and shows you where you are
 
-**git push** - 
+**git checkout ***branchname***** - swaping between the branches, where ***branchname*** is the branch you need to start working with
 
-**pull request** - 
+**git checkout -b ***branchname***** - if you need to create new branch and switch to it
+
+**git commit** - creating a commit to fix the current changes in your project
+
+**git push** - this commands updates your git repository with the latest changes made by you
+
+**pull request** - request to merge your current branch with the target project branch
 
 ### Thank you for your attention!
 ![Thanks for reading](img/ThanksForReading.jpg)
