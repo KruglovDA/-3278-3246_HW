@@ -43,6 +43,18 @@
 * ![2](https://sun1-93.userapi.com/impg/uMr9VReOewTkf8z5F9qw7GvDgrKsntk3LGUQQA/sVnOF6j6NY8.jpg?size=1081x1103&quality=95&sign=b2431c032796e0470cbcb3598016c45c&type=album)
 * ![3](https://sun1-15.userapi.com/impg/2m6kVHX8x6w1h-v1RYctfUPatSyQjMT0gugZCw/mO8z-kpvlj4.jpg?size=1080x1350&quality=96&sign=4db5e7121959e26cb324169fd73c9fe5&type=albumgit)
 
+Как работать с удаленными репозиториями:
+1. Переходим по ссылке https://github.com/KruglovDA/-3278-3246_HW.git
+2. Жмем на кнопку Fork (в списке наших репозиториев появился fork)
+3. Клонируем к себе в папку
+4. Открывает папку в VS
+5. выполняем git branch FIO
+6. выполняем git checkout FIO
+7. Добавляем свой файл с названием FIO.MD
+8. Выполняем Коммит
+9. выполняем git push (если git ругается, выполняем команду из подсказки)
+10. на github выполняем pull request
+...
 ## Заключение
 
 Основные команды по работе с Markdown
